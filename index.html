@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-plate">
+    <div class="form">
+      <div class="wrapper">
+        <label for="dayinput">DAY</label>
+        <input type="number" id="dayinput" placeholder="DD">
+        <p id="dayerror"></p>
+      </div>
+      
+      <div class="wrapper">
+        <label for="monthinput">MONTH</label>
+        <input type="number" id="monthinput" placeholder="MM">
+        <p id="montherror"></p>
+      </div>
+      
+      <div class="wrapper">
+        <label for="yearinput">YEAR</label>
+        <input type="number" id="yearinput" placeholder="YYYY">        
+        <p id="yearerror"></p>
+      </div>
+    </div>
+    <div class="btn" id="logButton">
+      <img src="./icon-arrow.svg" alt="">
+    </div>
+    <div class="output">
+      <h1><span id="displayYears">--</span> years</h1>
+      <h1><span id="displayMonths">--</span> months</h1>
+      <h1><span id="displayDays">--</span> days</h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
